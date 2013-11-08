@@ -79,7 +79,7 @@ do{
 while (checkLives() == true )
 
 if(player1Lives == 0){
-	console.log ("Player 2 has won! You have lost!");
+	alert("Player 2 has won! You have lost!");
 } else {
-	console.log ("Player 1 has won! You have lost");
+	alert("Player 1 has won! You have lost");
 }
